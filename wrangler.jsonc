@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-11-01",
   "upload_source_maps": true,
-  "observability": { "enabled": true },
+  "observability": { "enabled": true, "traces": { "enabled": true } },
   // Built from the paste submodule by `pnpm run build:paste`
   "assets": { "directory": "./public", "binding": "ASSETS" },
   "cache": { "enabled": true },
