@@ -24,7 +24,7 @@
     {
       "name": "POST_RATE_LIMITER",
       "namespace_id": "1001",
-      "simple": { "limit": 3, "period": 60 },
+      "simple": { "limit": 15, "period": 60 },
     },
     // upstream default: 30 per 5 minutes
     {
@@ -36,7 +36,7 @@
     {
       "name": "GET_RATE_LIMITER",
       "namespace_id": "1003",
-      "simple": { "limit": 15, "period": 60 },
+      "simple": { "limit": 30, "period": 60 },
     },
   ],
   "vars": {
