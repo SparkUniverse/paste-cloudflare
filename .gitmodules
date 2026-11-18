@@ -1,0 +1,3 @@
+[submodule "paste"]
+	path = paste
+	url = https://github.com/lucko/paste.git

@@ -1,0 +1,5 @@
+packages:
+  - paste
+
+# Only resolve package versions published at least 72 hours ago (value in minutes).
+minimumReleaseAge: 4320
